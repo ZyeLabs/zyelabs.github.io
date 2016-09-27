@@ -245,34 +245,7 @@ $(document).ready(function () {
     //------------------------------------------------------------------------
     //					SUBSCRIBE FORM VALIDATION'S SETTINGS
     //------------------------------------------------------------------------          
-    $('#subscribe_form').validate({
-        onfocusout: false,
-        onkeyup: false,
-        rules: {
-            email: {
-                required: true,
-                email: true
-            }
-        },
-        errorPlacement: function (error, element) {
-            error.appendTo(element.closest("form"));
-        },
-        messages: {
-            email: {
-                required: "We need your email address to contact you",
-                email: "Please, enter a valid email"
-            }
-        },
 
-        highlight: function (element) {
-            $(element)
-        },
-
-        success: function (element) {
-            element
-                .text('').addClass('valid')
-        }
-    });
 
 
 
@@ -280,38 +253,7 @@ $(document).ready(function () {
     //------------------------------------------------------------------------------------
     //						SUBSCRIBE FORM MAILCHIMP INTEGRATIONS SCRIPT
     //------------------------------------------------------------------------------------		
-    $('#subscribe_form').submit(function () {
-        $('.error').hide();
-        $('.error').fadeIn();
-        // submit the form
-        if ($(this).valid()) {
-            $('#subscribe_submit').button('loading');
-            var action = $(this).attr('action');
-            $.ajax({
-                url: action,
-                type: 'POST',
-                data: {
-                    newsletter_email: $('#subscribe_email').val()
-                },
-                success: function (data) {
-                    $('#subscribe_submit').button('reset');
 
-                    //Use modal popups to display messages
-                    $('#modalSubscribeSuccess .modal-title .mailchimp-data-message').html(data);
-                    $('#modalSubscribeSuccess').modal('show');
-
-                },
-                error: function () {
-                    $('#subscribe_submit').button('reset');
-
-                    //Use modal popups to display messages
-                    $('#modalSubscribeError').modal('show');
-
-                }
-            });
-        }
-        return false;
-    });
 
 
 
@@ -319,36 +261,7 @@ $(document).ready(function () {
     //------------------------------------------------------------------------
     //					SUBSCRIBE 2 FIELDS FORM VALIDATION'S SETTINGS
     //------------------------------------------------------------------------          
-    $('#subscribe_form_2').validate({
-        onfocusout: false,
-        onkeyup: false,
-        rules: {
-            name: "required",
-            email: {
-                required: true,
-                email: true
-            }
-        },
-        errorPlacement: function (error, element) {
-            error.appendTo(element.closest(".validation-message"));
-        },
-        messages: {
-            name: "What's your name?",
-            email: {
-                required: "We need your email address to contact you.",
-                email: "Please, enter a valid email"
-            }
-        },
 
-        highlight: function (element) {
-            $(element)
-        },
-
-        success: function (element) {
-            element
-                .text('').addClass('valid')
-        }
-    });
 
 
 
@@ -356,39 +269,7 @@ $(document).ready(function () {
     //------------------------------------------------------------------------------------
     //						SUBSCRIBE 2 FIELDS FORM MAILCHIMP INTEGRATIONS SCRIPT
     //------------------------------------------------------------------------------------		
-    $('#subscribe_form_2').submit(function () {
-        $('.error').hide();
-        $('.error').fadeIn();
-        // submit the form
-        if ($(this).valid()) {
-            $('#subscribe_submit_2').button('loading');
-            var action = $(this).attr('action');
-            $.ajax({
-                url: action,
-                type: 'POST',
-                data: {
-                    newsletter_email: $('#subscribe_email_2').val(),
-                    newsletter_name: $('#subscribe_name_2').val()
-                },
-                success: function (data) {
-                    $('#subscribe_submit_2').button('reset');
 
-                    //Use modal popups to display messages
-                    $('#modalSubscribeSuccess2 .modal-title .mailchimp-data-message').html(data);
-                    $('#modalSubscribeSuccess2').modal('show');
-
-                },
-                error: function () {
-                    $('#subscribe_submit_2').button('reset');
-
-                    //Use modal popups to display messages
-                    $('#modalSubscribeError2').modal('show');
-
-                }
-            });
-        }
-        return false;
-    });
 
 
 
@@ -396,39 +277,7 @@ $(document).ready(function () {
     //------------------------------------------------------------------------------------
     //						CONTACT FORM VALIDATION'S SETTINGS
     //------------------------------------------------------------------------------------		  
-    $('#contact_form').validate({
-        onfocusout: false,
-        onkeyup: false,
-        rules: {
-            name: "required",
-            message: "required",
-            email: {
-                required: true,
-                email: true
-            }
-        },
-        errorPlacement: function (error, element) {
-            error.insertAfter(element);
-        },
-        messages: {
-            name: "What's your name?",
-            message: "Type your message",
-            email: {
-                required: "What's your email?",
-                email: "Please, enter a valid email"
-            }
-        },
 
-        highlight: function (element) {
-            $(element)
-                .text('').addClass('error')
-        },
-
-        success: function (element) {
-            element
-                .text('').addClass('valid')
-        }
-    });
 
 
 
@@ -437,35 +286,7 @@ $(document).ready(function () {
     //								CONTACT FORM SCRIPT
     //------------------------------------------------------------------------------------	
 
-    $('#contact_form').submit(function () {
-        // submit the form
-        if ($(this).valid()) {
-            $('#contact_submit').button('loading');
-            var action = $(this).attr('action');
-            $.ajax({
-                url: action,
-                type: 'POST',
-                data: {
-                    contactname: $('#contact_name').val(),
-                    contactemail: $('#contact_email').val(),
-                    contactmessage: $('#contact_message').val()
-                },
-                success: function () {
-                    $('#contact_submit').button('reset');
-                    //Use modal popups to display messages
-                    $('#modalContactSuccess').modal('show');
-                },
-                error: function () {
-                    $('#contact_submit').button('reset');
-                    //Use modal popups to display messages
-                    $('#modalContactError').modal('show');
-                }
-            });
-        } else {
-            $('#contact_submit').button('reset')
-        }
-        return false;
-    });
+   
 
 });
 
