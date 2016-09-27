@@ -471,40 +471,40 @@ $(document).ready(function () {
     //						RENTAL FORM VALIDATION'S SETTINGS
     //------------------------------------------------------------------------------------
 
-    $('#rent_form .input-daterange').datepicker({
-        startDate: "Beginning of time",
-        todayBtn: "linked",
-        autoclose: true,
-        todayHighlight: true
-    });
-
-    $('#rent_form').validate({
-        onfocusout: false,
-        onkeyup: false,
-        rules: {
-            type: "required",
-            start: "required",
-            pickloc: "required",
-            end: "required",
-            email: {
-                required: true,
-                email: true
-            }
-        },
-        errorPlacement: function (error, element) {
-            error.insertAfter(element);
-        },
-        messages: {
-            type: "Please enter car type",
-            start: "Please enter valid Date",
-            pickloc: "Please enter a Pick-up Location",
-            end: "Please enter valid Date",
-            email: {
-                required: "What's your email?",
-                email: "Please, enter a valid email"
-            }
-        }
-    });
+    // $('#rent_form .input-daterange').datepicker({
+    //     startDate: "Beginning of time",
+    //     todayBtn: "linked",
+    //     autoclose: true,
+    //     todayHighlight: true
+    // });
+    //
+    // $('#rent_form').validate({
+    //     onfocusout: false,
+    //     onkeyup: false,
+    //     rules: {
+    //         type: "required",
+    //         start: "required",
+    //         pickloc: "required",
+    //         end: "required",
+    //         email: {
+    //             required: true,
+    //             email: true
+    //         }
+    //     },
+    //     errorPlacement: function (error, element) {
+    //         error.insertAfter(element);
+    //     },
+    //     messages: {
+    //         type: "Please enter car type",
+    //         start: "Please enter valid Date",
+    //         pickloc: "Please enter a Pick-up Location",
+    //         end: "Please enter valid Date",
+    //         email: {
+    //             required: "What's your email?",
+    //             email: "Please, enter a valid email"
+    //         }
+    //     }
+    // });
 
 
     //------------------------------------------------------------------------------------
