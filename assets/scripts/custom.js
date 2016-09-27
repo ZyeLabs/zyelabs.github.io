@@ -19,10 +19,10 @@ $(window).load(function () {
     //------------------------------------------------------------------------
     //						COUNTER SCRIPT
     //------------------------------------------------------------------------
-    $('.timer').counterUp({
-        delay: 20,
-        time: 2500
-    });
+    // $('.timer').counterUp({
+    //     delay: 20,
+    //     time: 2500
+    // });
 
 
     //------------------------------------------------------------------------
@@ -102,13 +102,13 @@ $(document).ready(function () {
     //------------------------------------------------------------------------	
     //                    MAGNIFIC POPUP(LIGHTBOX) SETTINGS
     //------------------------------------------------------------------------ 
-    $('.portfolio-list li').magnificPopup({
-        delegate: 'a:not(.btn, .link-item)',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $('.portfolio-list li').magnificPopup({
+    //     delegate: 'a:not(.btn, .link-item)',
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
 
 
 
