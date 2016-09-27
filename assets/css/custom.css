@@ -1,0 +1,13 @@
+.custom-logo{
+    height: 50px;
+    border-radius: 0px;
+    border-color: rgb(0, 192, 255);
+    border-style: none;
+    border-width: 1px;
+    width: 130px;
+}
+
+.custom-nav-link{
+    color: rgb(68, 68, 68);
+    text-transform: none;
+}
