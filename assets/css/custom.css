@@ -83,3 +83,11 @@
     border-color: rgb(105, 194, 153) !important;
     border-width: 1px;
 }
+
+.custom-h3-services{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
