@@ -56,3 +56,22 @@
     height:50px;
     clear:both;
 }
+
+.custom-service-bg{
+    background-image: url(../images/bg101.jpg);
+    background-color: rgb(37, 40, 48);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-bottom-width: 0px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.custom-services-title{
+    color: rgb(255, 255, 255);
+    font-size: 44px; background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
