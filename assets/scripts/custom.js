@@ -504,3 +504,4 @@ $.fn.carouselHeights = function () {
     });
 
 };
+}
