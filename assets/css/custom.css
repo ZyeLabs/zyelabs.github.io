@@ -26,3 +26,13 @@
     background-attachment: fixed;
     background-image: url(../images/bg100.jpg);
 }
+
+.custom-slogan-img{
+    margin-top: 20px;
+    border-radius: 0px;
+    border-color: rgb(85, 85, 85);
+    border-style: none;
+    border-width: 1px;
+    width: 220px;
+    height: 84px;
+}
