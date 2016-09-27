@@ -77,7 +77,7 @@
 }
 
 .num-icon{
-    color: rgb(105, 194, 153);
+    color: rgb(105, 194, 153) !important;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 50%;
     border-color: rgb(105, 194, 153) !important;
