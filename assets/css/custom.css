@@ -11,3 +11,18 @@
     color: rgb(68, 68, 68);
     text-transform: none;
 }
+
+.banner-h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 70px;
+    margin-top: 0px;
+}
+
+.custom-banner-bg{
+    background-color: rgb(37, 40, 48);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(assets/images/bg100.jpg);
+}
