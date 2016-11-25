@@ -1,0 +1,136 @@
+.custom-logo{
+    height: 50px;
+    border-radius: 0px;
+    border-color: rgb(0, 192, 255);
+    border-style: none;
+    border-width: 1px;
+    width: 130px;
+}
+
+.custom-nav-link{
+    color: rgb(68, 68, 68);
+    text-transform: none;
+}
+
+.banner-h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 70px;
+    margin-top: 0px;
+}
+
+.custom-banner-bg{
+    background-color: rgb(37, 40, 48);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../images/bg100.jpg);
+}
+
+.custom-slogan-img{
+    margin-top: 20px;
+    border-radius: 0px;
+    border-color: rgb(85, 85, 85);
+    border-style: none;
+    border-width: 1px;
+    width: 220px;
+    height: 84px;
+}
+
+.custom-down-arrow{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    opacity: 1;
+}
+
+.custom-partner-logo{
+    width: 188px;
+    height: 110px;
+    border-radius: 0px;
+    border-color: rgb(85, 85, 85);
+    border-style: none;
+    border-width: 1px;
+}
+
+.custom-partner-sm-spacer{
+    height:50px;
+    clear:both;
+}
+
+.custom-service-bg{
+    background-image: url(../images/bg101.jpg);
+    background-color: rgb(37, 40, 48);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-bottom-width: 0px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.custom-services-title{
+    color: rgb(255, 255, 255);
+    font-size: 44px; background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.num-icon{
+    color: rgb(105, 194, 153) !important;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    border-color: rgb(105, 194, 153) !important;
+    border-width: 1px;
+}
+
+.custom-h3-services{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.custom-how-img{
+    width: 250px;
+    border-radius: 0px;
+    border-color: rgb(85, 85, 85);
+    border-style: none;
+    border-width: 1px;
+}
+
+.custom-contact-h2{
+    color: rgb(243, 243, 243);
+    font-size: 44px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+h4.sub-title{
+    color: rgb(105, 194, 153);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.data-list{
+    color: rgb(243, 243, 243);
+}
+.custom-contact-icon{
+    color: rgb(105, 194, 153);
+    font-size: 22.1px;
+    opacity: 1;
+}
+
+.custom-footer-icon{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+    border-color: rgb(85, 85, 85);
+    border-style: none;
+    border-width: 1px;
+}
