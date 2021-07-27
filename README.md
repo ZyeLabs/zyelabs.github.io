@@ -13,5 +13,5 @@ You need to be entrepreneurial, curious, passionate, open and  someone who loves
 Some of the technologies we currently use: Hadoop, Apache NiFi, Spark, Ruby, Python, Javascript. Having said that, the technology you are familiar with is unimportant.
 
 # Find out More: 
-* https://zyelabs.typeform.com/to/sl7rCS
+* https://www.zyelabs.net/join-us/#/
 * http://www.zyelabs.net
